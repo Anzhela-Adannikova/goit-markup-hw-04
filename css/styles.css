@@ -1,0 +1,362 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+/*reset*/
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*common*/
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* #region Header */
+.header-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.nav-page {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    /*padding: 24px 0;*/
+    margin-right: 76px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-item {}
+.nav-item-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+    }
+
+.nav-item-link:hover,
+.nav-item-link:focus {
+    color: #404bbf;
+    }
+
+.header-address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.addr-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.addr-iten {
+    
+}
+.addr-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.addr-link:hover,
+.addr-link:focus {
+    color: #404bbf;
+}
+
+.logo {    
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+} 
+
+.logo-style {
+    /*font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;*/
+    color: #2e2f42;
+}
+
+/* #endregion Header */
+
+/*#region section 1 Order Service*/
+
+.order-service {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+.container-sec-one{
+    width: 1440px;
+    height: 600px;
+    padding: 120px 156px;
+}
+
+.title-order-service {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    max-width: 496px;
+    margin: 0 auto;
+    padding: 0 0 48px 0;
+}
+
+.btn-order-service {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    padding: 16px 32px;
+    border-color: transparent;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+.btn-order-service:hover, 
+.btn-order-service:focus{
+    background-color: #404bbf;
+}
+
+/*#endregion section 1 Order Service*/
+
+/*#region section 2 Advantages*/
+.advantages {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.adv-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.adv-category {
+    width: calc((100% - 72px) / 4);
+}
+
+.adv-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.adv-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*#endregion section 2 Advantages*/
+
+/*#region section 3 Our Team*/
+
+.our-team {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.title-our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-category {
+    background: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    width: calc(100% - 72px) / 4;
+
+
+}
+
+/* .image-our-team {
+    display: block;
+    border-radius: 0px 0px 4px 4px;
+} */
+
+.cont-our-team {
+    padding: 32px 0;
+}
+
+.name-our-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.desc-our-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+/*#endregion section 3 Our Team*/
+
+/*#region section 4 Our Portfolio*/
+
+.our-portfolio {
+    padding: 120px 0;
+}
+
+.title-our-portfolio {
+    font-weight: 700;
+    line-height: 1.11;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.list-our-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+.our-portfolio-category {
+    width: calc(100% - 48px) / 3;
+}
+
+.cont-out-port {
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
+.name-our-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.desc-our-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+/*#endregion section 4 Our Portfolio*/
+
+/*#region Footer*/
+.end {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.logo-footer{
+   display: inline-block;
+    margin-bottom: 16px;
+}
+
+footer .logo-style{
+    color: #f4f4fd;
+
+}
+.end-about {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;
+}
+/*#endregion Footer*/
