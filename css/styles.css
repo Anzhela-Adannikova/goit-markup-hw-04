@@ -348,7 +348,7 @@ button {
 }
 .icon-link:hover,
 .icon-link:focus {
-    background-color: #31D0AA ;
+    background-color: #404BBF;
 
 }
 
@@ -430,6 +430,7 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #4d5ae5;
+    padding: 40px 32px;
     position: absolute;
     transform: translateY(100%);
     top: 0;
@@ -450,7 +451,10 @@ button {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
+.cont-footer {
+    display: flex;
+    justify-content: space-between;
+}
 .logo-footer{
    display: inline-block;
     margin-bottom: 16px;
@@ -468,6 +472,25 @@ footer .logo-style{
     color: #f4f4fd;
     width: 264px;
 }
+.cont-footer-icon{
+
+    width: 208px;
+    /* margin-left: 120px; */
+}
+.title-icon {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+footer .icon-link:hover,
+        .icon-link:focus {
+     background-color: #31D0AA;
+ 
+ }
 /*#endregion Footer*/
 
 
