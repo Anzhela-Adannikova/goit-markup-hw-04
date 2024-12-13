@@ -436,8 +436,8 @@ button {
     color: #f4f4fd;
     background-color: #4d5ae5;
 }
-.our-portfolio-category:hover .overlay,
-.our-portfolio-category:focus .overlay {
+.our-portfolio-category:hover .overlay-text,
+.our-portfolio-category:focus .overlay-text {
     transform: translateY(0);
 }
 /* .overlay-link:hover .overlay,
