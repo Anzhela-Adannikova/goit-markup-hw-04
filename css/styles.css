@@ -152,7 +152,6 @@ button {
     width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
     margin-left: auto;
     margin-right: auto;
     padding: 188px 0;
@@ -198,6 +197,24 @@ button {
 /*#endregion section 1 Order Service*/
 
 /*#region section 2 Advantages*/
+
+/* icon Adv*/
+.icon-sec-two {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+}
+.adv-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
 .advantages {
     padding: 120px 0;
 }
@@ -295,6 +312,19 @@ button {
     text-align: center;
     color: #434455;
 }
+
+/* icon sect 3  */
+
+.icon-list {
+}
+.item-icon {
+}
+.icon-link {
+}
+.our-icons {
+}
+
+
 /*#endregion section 3 Our Team*/
 
 /*#region section 4 Our Portfolio*/
@@ -326,6 +356,13 @@ button {
 
 .our-portfolio-category {
     width: calc(100% - 48px) / 3;
+}
+/*тінь*/
+.our-portfolio-category:hover,
+.our-portfolio-category:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cont-out-port {
@@ -379,3 +416,34 @@ footer .logo-style{
     width: 264px;
 }
 /*#endregion Footer*/
+
+
+
+/* .social-list{
+    display: bloch;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    column-gap: 24px;
+    background-color: #ffffff;
+    fill: #4d5ae5;
+
+}
+
+ .social-list-items {
+    display: flex;
+    justify-content: centre;
+    column-gap: 24px;
+
+} 
+ .social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+ } */
