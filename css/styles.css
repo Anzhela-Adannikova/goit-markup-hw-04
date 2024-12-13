@@ -334,6 +334,7 @@ button {
     justify-content: center;
     flex-direction: row;
     gap: 24px;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link {
     display: flex;
@@ -354,7 +355,7 @@ button {
 .icon-link:hover,
 .icon-link:focus {
     background-color: #404bbf;
-    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 
@@ -389,9 +390,6 @@ button {
 
 .our-portfolio-category {
     width: calc(100% - 48px) / 3;
-    /* position: relative; */
-    /* overflow: hidden; */
-
 }
 
 /*тінь*/
@@ -464,9 +462,15 @@ button {
 
 .cont-footer {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: baseline;
+    /* margin-right: 120px; */
 }
+
+.container-footer {
+    margin-right: 120px;
+}
+
 
 .logo-footer{
    display: inline-block;
@@ -489,8 +493,9 @@ footer .logo-style{
 
 .cont-footer-icon{
 
+
     width: 208px;
-    margin-right: 120px;
+    
 }
 
 footer .our-icons {
@@ -503,6 +508,7 @@ footer .our-icons {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    gap: 16px;
     margin-bottom: 16px;
 }
 
